@@ -48,7 +48,7 @@
         <h1>Welcome to My Mini App</h1>
         <div id="user-info" class="user-info"></div>
         <button class="button" onclick="performAction()">Click Me!!</button>
-        <button class="button" onclick="showRewardedAd()">Watch Ad for Reward</button>
+        <button class="button" onclick="showRewardedAd()">Premium Content </button>
     </div>
 
     <script>
@@ -114,7 +114,7 @@
             tg.MainButton.setText('Main Action');
             tg.MainButton.show();
             tg.MainButton.onClick(() => {
-                performAction();
+                showRewardedAd();
             });
         });
 
